@@ -191,7 +191,7 @@ textarea::placeholder {
   }
 
   #zip {
-    width: 25%;
+    max-width: 25%;
   }
 
   fieldset.contact {
@@ -201,7 +201,7 @@ textarea::placeholder {
   }
 
   .contact label {
-    width: 25%;
+    width: 21%;
     margin: 1rem 1rem 1rem 0;
     padding-top: .5rem;
     text-align: left;
@@ -209,6 +209,7 @@ textarea::placeholder {
 
   input, 
   select {
-    width: 70%;
+    flex-basis: 70%;
+    margin-left: 1rem;
   }
 }
